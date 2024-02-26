@@ -1,3 +1,7 @@
+//funcion para saber la raiz cuadrada de un numero 
+function raizCuadrada(num1) {
+  return Math.sqrt(num1);
+}
 //funcion para sacar el exponente de un numero
 function exponente(num1,exponenteNum) {
   return Math.pow(num1, exponenteNum);
@@ -63,6 +67,5 @@ function calculadora() {
 
   alert("El resultado es: " + resultado);
 }
-
 // Llamar a la función principal
 calculadora();
