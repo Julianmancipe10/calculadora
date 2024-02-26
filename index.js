@@ -1,3 +1,7 @@
+//funcion para dividir dos numeros 
+function  dividir(num1,num2) {
+  return num1 / num2
+}
 //funcion para multiplicar dos numeros 
 function multiplicar(num1,num2){
   return num1 * num2
