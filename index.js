@@ -1,9 +1,11 @@
+//funcion para sacar el exponente de un numero
+function exponente(num1,exponenteNum) {
+  return Math.pow(num1, exponenteNum);
+}
 //funcion para hacer la operacion factorial 
 function factorial(num1) {
   return num1 === 0 ? 1 : num1 * factorial(num1 - 1);
 }
-
-
 //funcion para dividir dos numeros 
 function  dividir(num1,num2) {
   return num1 / num2
