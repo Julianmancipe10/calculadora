@@ -1,3 +1,9 @@
+//funcion para hacer la operacion factorial 
+function factorial(num1) {
+  return num1 === 0 ? 1 : num1 * factorial(num1 - 1);
+}
+
+
 //funcion para dividir dos numeros 
 function  dividir(num1,num2) {
   return num1 / num2
